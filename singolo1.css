@@ -61,13 +61,17 @@ header{
     text-transform: uppercase;
   }
   .bg_bottom_header{
-    height: 5px;
+    height: 6px;
     background-color: #323746;  
   }
 /********************/
+.slider{
+  background-color: #f06c64;
+}
+
 .slider_block{
     min-height: 585px;
-    background-color: #f06c64;
+    
     display: flex;
     padding-left: 40px;
     padding-right: 40px;
