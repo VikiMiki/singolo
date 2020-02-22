@@ -46,7 +46,13 @@ header{
     padding: 0 17px;
     justify-content: flex-end;
     list-style: none;
-    border: 0.5px solid red;
+  }
+  
+  .list-item li:not(:first-child)::before{
+    content: '*';
+    position: absolute;
+    left: 24px;
+    display: inline-block;
   }
 
   .list-item a {
@@ -120,4 +126,97 @@ header{
     background-color: #ea676b; 
   }
 /********************/
+.ourservices{
+  background-color: #f2f2f2;
+}
+
+.content{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.content_block{
+  display: flex;
+}
+
+.txt_h3{
+  margin: 0;
+  padding-top: 60px;
+  font-size: 30px;
+  font-family: "Lato";
+  font-weight: 900;
+  color: #666d89;
+  text-align: justify;
+}
+
+.txt_p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: justify;
+  letter-spacing: 0;
+}
+
+.content_txt{
+  width: 219px;
+  margin-top: 20px;
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.tool2{
+  display: flex;
+}
+
+.tool_icon{
+  width: 57px;
+  height: 57px;
+  margin-top: 27px;
+}
+
+.tool_icon_second{
+  width: 57px;
+  height: 57px;
+  margin-top: 31px;
+}
+
+.content_txt h3, .content_txt_second h3{
+  margin: 0;
+  padding-top: 6px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+}
+
+.content_txt p, .content_txt_second p{
+  margin: 0;
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+}
+
+.content_txt_second{
+  width: 219px;
+  margin-top: 23px;
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.bg_bottom_ourservices{
+  height: 6px;
+  background-color: #ffffff;
+}
 
