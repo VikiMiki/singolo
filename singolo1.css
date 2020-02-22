@@ -65,3 +65,55 @@ header{
     background-color: #323746;  
   }
 /********************/
+.slider_block{
+    min-height: 585px;
+    background-color: #f06c64;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: stretch;
+  }
+  .chef_left{
+    margin-top: 30%;
+    padding-left: 2px;
+  }
+  .iphone_vertical{
+    /*margin: 0 98px 0 112px;*/
+    margin-top: 54px;
+    margin-left: 54px;
+    z-index: 2;
+  }
+
+  .iphone_vertical img{
+    border-radius: 27px;
+    box-shadow: 
+               25px 25px 0 #ce5e57,
+               20px 20px 0 #ce5e57,
+               15px 15px 0 #ce5e57,
+               10px 10px 0 #ce5e57; 
+  }
+  .iphone_horizontal{
+    margin-top: 175px;
+    margin-left: 98px;
+    margin-right: 81px;
+    z-index: 2;
+  }
+  .iphone_horizontal img{
+    border-radius: 27px;
+    box-shadow: 
+              25px 25px 0 #ce5e57,
+              20px 20px 0 #ce5e57,
+              15px 15px 0 #ce5e57,
+              10px 10px 0 #ce5e57; 
+  }
+
+  .chef_right{
+    margin-top: 30%;
+  }
+
+  .bg_bottom_slider{
+    height: 15px; 
+    background-color: #ea676b; 
+  }
+/********************/
+
