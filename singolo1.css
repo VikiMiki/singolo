@@ -17,66 +17,73 @@ header{
     margin-left: 40px;
     margin-right: 40px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
   }
 
 .logo{
-    /*margin-left: 40px;
-    border: 1px solid black;*/
+    /*margin-left: 40px;*/
+    margin: 0;
+    
   }
 
 .logo h1{
     font-size: 25px;
-    line-height: 6.32px;
+    line-height: 6.7px;
     color: #ffffff;
     font-family: "Lato Regular";
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: -0.18px;
 }
 
 .star{
-    color: #f06c64;
+  color: #f06c64;
 }
 
 .navigat{
-  padding-top: 10px;
-  margin: 0;
+  padding-top: 9px;
+  padding-left: 110px;
+  margin-left: 286px;
 }
 
 .list{
     display: flex;
     margin: 0px;
-    padding-left: 0px;
 }
+
 .list-item {
     display: flex;
-    padding-left: 12px;
-    padding-right: 13px;
-    justify-content: flex-end;
     position: relative;
   }
   
- li:not(:first-child)::before{
+li:not(:first-child)::before{
     content: '.';
     position: absolute;
     top: -10px;
-    left: 2px;
+    left: 0px;
     display: inline-block;
-    color: lawngreen;
-    
+    color: #494e62;  
   }
 
   .list-item a {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
     align-items: left;
     text-decoration: none;
     font-size: 12px;
-    line-height: 6.32px;
-    color: #f06c64;
-    font-family: "Lato";
-    font-weight: 300;  
+    line-height: 7px;
+    color: #ffffff;
+    font-family: "Lato Regular";
+    font-weight: 550;  
     text-transform: uppercase;
+    letter-spacing: -0.15px;
   }
+
+  .list-item a:hover{
+    color: #f06c64;
+  }
+
   .bg_bottom_header{
     height: 6px;
     background-color: #323746;  
@@ -194,7 +201,7 @@ header{
   overflow: hidden;
 }
 
-.tool2{
+.tool_content{
   display: flex;
 }
 
@@ -218,7 +225,7 @@ header{
   color: #666d89;
   font-family: "Lato";
   font-weight: 900;
-  letter-spacing: -0.035px;
+  letter-spacing: 0.093px;
  
 }
 
@@ -230,16 +237,17 @@ header{
   color: #767e9e;
   font-family: "Lato Regular";
   font-weight: 400;
-  letter-spacing: 0.032px;
+  letter-spacing: -0.034px;
   text-align: justify;
 }
 
 .content_txt_second{
   width: 219px;
   margin-top: 24px;
-  margin-left: 23px;
+  margin-left: 22px;
   margin-right: 21px;
   margin-bottom: 0;
+  padding-left: 1px;
   overflow: hidden;
 }
 
