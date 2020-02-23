@@ -27,43 +27,54 @@ header{
 
 .logo h1{
     font-size: 25px;
-    line-height: 6px;
+    line-height: 6.32px;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: "Lato Regular";
     font-weight: 300;
-    letter-spacing: 0px;   
+    text-transform: uppercase;
 }
 
 .star{
     color: #f06c64;
 }
 
+.navigat{
+  padding-top: 10px;
+  margin: 0;
+}
+
 .list{
     display: flex;
+    margin: 0px;
+    padding-left: 0px;
 }
 .list-item {
     display: flex;
-    padding: 0 17px;
+    padding-left: 12px;
+    padding-right: 13px;
     justify-content: flex-end;
-    list-style: none;
+    position: relative;
   }
   
-  .list-item li:not(:first-child)::before{
-    content: '*';
+ li:not(:first-child)::before{
+    content: '.';
     position: absolute;
-    left: 24px;
+    top: -10px;
+    left: 2px;
     display: inline-block;
+    color: lawngreen;
+    
   }
 
   .list-item a {
     display: flex;
-    align-items: center;
+    align-items: left;
     text-decoration: none;
     font-size: 12px;
-    line-height: 6px;
+    line-height: 6.32px;
     color: #f06c64;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 300;  
     text-transform: uppercase;
   }
   .bg_bottom_header{
@@ -87,6 +98,15 @@ header{
     margin-top: 30%;
     padding-left: 2px;
   }
+
+  .chef_left img{
+    cursor: pointer;
+  }
+
+  .chef_left img::after{
+    opacity: 0;
+  }
+
   .iphone_vertical{
     /*margin: 0 98px 0 112px;*/
     margin-top: 54px;
@@ -120,6 +140,10 @@ header{
   .chef_right{
     margin-top: 30%;
   }
+  
+  .chef_right img{
+    cursor: pointer;
+  }
 
   .bg_bottom_slider{
     height: 15px; 
@@ -131,6 +155,7 @@ header{
 }
 
 .content{
+  height: 495px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -139,31 +164,32 @@ header{
   display: flex;
 }
 
-.txt_h3{
+.txt_h2{
   margin: 0;
-  padding-top: 60px;
+  padding-top: 59px;
   font-size: 30px;
   font-family: "Lato";
   font-weight: 900;
   color: #666d89;
   text-align: justify;
+  letter-spacing: 0.3px;
 }
 
 .txt_p{
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
-  font-family: "Lato";
-  font-weight: 300;
+  font-family: "Lato Regular";
+  font-weight: 200;
+  letter-spacing: -0.35px;
   text-align: justify;
-  letter-spacing: 0;
 }
 
 .content_txt{
   width: 219px;
-  margin-top: 20px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-top: 22px;
+  margin-left: 23px;
+  margin-right: 21px;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -175,24 +201,25 @@ header{
 .tool_icon{
   width: 57px;
   height: 57px;
-  margin-top: 27px;
+  margin-top: 29px;
 }
 
 .tool_icon_second{
   width: 57px;
   height: 57px;
-  margin-top: 31px;
+  margin-top: 32px;
 }
 
 .content_txt h3, .content_txt_second h3{
   margin: 0;
-  padding-top: 6px;
+  padding-top: 5px;
   font-size: 18px;
   line-height: 18px;
   color: #666d89;
   font-family: "Lato";
   font-weight: 900;
-  text-align: left;
+  letter-spacing: -0.035px;
+ 
 }
 
 .content_txt p, .content_txt_second p{
@@ -201,16 +228,17 @@ header{
   font-size: 12px;
   line-height: 22px;
   color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato Regular";
   font-weight: 400;
+  letter-spacing: 0.032px;
   text-align: justify;
 }
 
 .content_txt_second{
   width: 219px;
-  margin-top: 23px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-top: 24px;
+  margin-left: 23px;
+  margin-right: 21px;
   margin-bottom: 0;
   overflow: hidden;
 }
