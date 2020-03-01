@@ -15,3 +15,21 @@
     src: url("../assets/fonts/lato-regular.woff2") format("woff2"),
     url("../assets/fonts/lato-regular.woff") format("woff");
   }
+
+  @font-face {
+    font-family: 'latoblack';
+    src: url('../assets/fonts/lato-black.woff2') format('woff2'),
+         url('../assets/fonts/lato-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../assets/fonts/lato-light.woff2') format('woff2'),
+         url('../assets/fonts/lato-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
