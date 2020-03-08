@@ -35,7 +35,9 @@ body {
       font-family: "latolight";
       font-weight: 400;
       text-align: justify;
-      letter-spacing: -0.175px;
+      letter-spacing: -0.35px;
+      white-space: 1px;
+     /* -0.175px;*/
   }
 
   .get_a_quote_content{
@@ -109,7 +111,7 @@ body {
 
   .decription_contact {
     margin: 0px;
-    padding-top: 9px;
+    padding-top: 9.5px;
     padding-bottom: 19px;
     font-size: 12px;
     line-height: 22px;
@@ -123,13 +125,13 @@ body {
   }
 
   .contact-items{
+    padding-top: -2px;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
     font-family: "Lato Regular";
     font-weight: 400;
     text-align: left;
-    
   }
 
   .contact-items p{
@@ -144,7 +146,7 @@ body {
   .contact-items img{
     vertical-align: middle;
     margin-left: 2px;
-    margin-right: 13px;
+    margin-right: 11px;
   }
 
   .bg_get_a_quote{
@@ -175,14 +177,12 @@ body {
     font-family: "Lato Regular";
     font-weight: 400;
     text-align: left;
-    white-space: ;
   }
 
   .icon_social{
     margin-right: 40px;
     padding-top: 22px;
   }
-  
 
   .icon_social a{
     margin-left: 4px;
@@ -191,7 +191,6 @@ body {
 
   .icon_social img:hover{
     transform: scale(1.2);
-    display: ;
   }
   
   
